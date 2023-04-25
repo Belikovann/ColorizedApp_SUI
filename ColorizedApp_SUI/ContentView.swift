@@ -8,9 +8,9 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var redSliderValue = Double.random(in:  0...255)
-    @State private var greenSliderValue = Double.random(in:  0...255)
-    @State private var blueSliderValue = Double.random(in:  0...255)
+    @State private var redSliderValue = 0
+    @State private var greenSliderValue = 0
+    @State private var blueSliderValue = 0
     
     
     var body: some View {
@@ -37,14 +37,4 @@ struct ContentView_Previews: PreviewProvider {
     }
 }
 
-struct SettingColor: View {
-    @Binding var value: Double
-    
-    var body: some View {
-        HStack {
-            Text("\(lround(value))")
-            Slider(value: $value, in: 0...255, step: 1)
-        }
-        .padding()
-    }
-}
+

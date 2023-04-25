@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C80FC0F929F81DE300AC844F /* ColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80FC0F829F81DE300AC844F /* ColorView.swift */; };
+		C80FC0FD29F830DA00AC844F /* SettingColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80FC0FC29F830DA00AC844F /* SettingColor.swift */; };
 		C8E6D75129F5BC7E005C2B96 /* ColorizedApp_SUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E6D75029F5BC7E005C2B96 /* ColorizedApp_SUIApp.swift */; };
 		C8E6D75329F5BC7E005C2B96 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E6D75229F5BC7E005C2B96 /* ContentView.swift */; };
 		C8E6D75529F5BC7F005C2B96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8E6D75429F5BC7F005C2B96 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 
 /* Begin PBXFileReference section */
 		C80FC0F829F81DE300AC844F /* ColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorView.swift; sourceTree = "<group>"; };
+		C80FC0FC29F830DA00AC844F /* SettingColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingColor.swift; sourceTree = "<group>"; };
 		C8E6D74D29F5BC7E005C2B96 /* ColorizedApp_SUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorizedApp_SUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8E6D75029F5BC7E005C2B96 /* ColorizedApp_SUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorizedApp_SUIApp.swift; sourceTree = "<group>"; };
 		C8E6D75229F5BC7E005C2B96 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,6 +57,7 @@
 			children = (
 				C8E6D75029F5BC7E005C2B96 /* ColorizedApp_SUIApp.swift */,
 				C8E6D75229F5BC7E005C2B96 /* ContentView.swift */,
+				C80FC0FC29F830DA00AC844F /* SettingColor.swift */,
 				C80FC0F829F81DE300AC844F /* ColorView.swift */,
 				C8E6D75429F5BC7F005C2B96 /* Assets.xcassets */,
 				C8E6D75629F5BC7F005C2B96 /* Preview Content */,
@@ -142,6 +145,7 @@
 			files = (
 				C80FC0F929F81DE300AC844F /* ColorView.swift in Sources */,
 				C8E6D75329F5BC7E005C2B96 /* ContentView.swift in Sources */,
+				C80FC0FD29F830DA00AC844F /* SettingColor.swift in Sources */,
 				C8E6D75129F5BC7E005C2B96 /* ColorizedApp_SUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

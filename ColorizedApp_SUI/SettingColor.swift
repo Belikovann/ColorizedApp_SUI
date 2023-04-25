@@ -1,0 +1,52 @@
+//
+//  SettingColor.swift
+//  ColorizedApp_SUI
+//
+//  Created by Аня Беликова on 25.04.2023.
+//
+
+import SwiftUI
+
+struct SettingColor: View {
+    @Binding var value: Double
+    let sliderAccentColor: Color
+
+    
+    var body: some View {
+        HStack {
+            Text("\(lround(value))")
+            Slider(value: $value, in: 0...255, step: 1)
+        }
+        .padding()
+    }
+}
+
+struct SettingColor_Previews: PreviewProvider {
+    static var previews: some View {
+        SettingColor(value: .constant(100), sliderAccentColor: Color(.red))
+    }
+}
+
+
+
+
+
+struct SliderAndTexts: View {
+    
+    @Binding var colorValue: Double
+    let sliderAccentColor: Color
+    
+    var body: some View {
+        HStack {
+            Text("\(lround(colorValue))")
+                .font(.headline)
+                .frame(width: 35)
+                .foregroundColor(.white)
+            
+            Slider(value: $colorValue, in: 0...255, step: 1)
+                .accentColor(sliderAccentColor)
+            
+        }.padding(.horizontal, 10)
+    }
+    
+   
